@@ -1,5 +1,5 @@
 # JEE-NEET-COACHING
-
+It is a website for coaching institute.
 //HTML
 
 <!DOCTYPE html>
