@@ -6,11 +6,11 @@
 
 
 
-    @media(max-width:700px){
-        #boldtext{
-            font-size: 20px;
-        }
+@media(max-width:700px){
+    #boldtext{
+        font-size: 20px;
     }
+}
 
 
 .header{
@@ -20,6 +20,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow-x: hidden;
 }
 
 
@@ -70,10 +71,10 @@ nav img{
     text-align: center;
 }
 .text-box h1{
-    font-size:62px ;
+    font-size:40px ;
 }
 .text-box p{
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px 0 40px;
     color: #fff;
 }
