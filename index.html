@@ -1,245 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
-    />
-    <link rel="stylesheet" href="mycoaching.css" />
-    <script
-      src="https://kit.fontawesome.com/696ae4e2a9.js"
-      crossorigin="anonymous"
-    ></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="mycoaching.css">
+    <link rel="stylesheet" href="./about.html">
+    <script src="https://kit.fontawesome.com/696ae4e2a9.js" crossorigin="anonymous"></script>
     <title>My Academy</title>
-  </head>
-  <body>
+</head>
+<body>
+
     <section class="header">
-      <nav>
-        <a href="img/coachinglogo1.png"
-          ><img src="img/coachinglogo1.png" alt=""
-        /></a>
-        <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" id="nav1" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">COURSE</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACT</a></li>
-          </ul>
+        <nav>
+            <a href="img/coachinglogo1.png"><img src="img/coachinglogo1.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" id="nav1" onclick="hideMenu()"></i>
+            
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars" id="nav2" onclick="showMenu()"></i> 
+        </nav>
+
+
+
+        <div class="text-box">
+            <h1>India's Best Coaching Institute</h1>
+            <p id="boldtext">It is India's best coaching institute founded by IITIANS. <br><br>Come to learn</p>
+            <a href="" class="hero-btn">Visit Us to Know More</a>
+
         </div>
-        <i class="fa fa-bars" id="nav2" onclick="showMenu()"></i>
-      </nav>
-      <div class="text-box">
-        <h1>India's Best Coaching Institute</h1>
-        <p id="boldtext">
-          It is India's best coaching institute founded by IITIANS.
-          <br /><br />Come to learn
-        </p>
-        <a href="" class="hero-btn">Visit Us to Know More</a>
-      </div>
+
     </section>
 
     <script>
-      var navLinks = document.getElementById("navLinks");
+        var navLinks=document.getElementById("navLinks");
 
-      function showMenu() {
-        navLinks.style.right = "0";
-      }
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
     </script>
 
     <!-- Courses -->
     <section class="course">
-      <h1>Courses We Offer</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-        corporis?
-      </p>
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, corporis?</p>
 
-      <div class="row">
-        <div class="course-col">
-          <h3>FIRST YEAR (11th)</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            animi similique fuga sapiente cumque, vitae perferendis explicabo.
-            Illo, id soluta.
-          </p>
-        </div>
+       <div class="row">
+          <div class="course-col">
+            <h3>FIRST YEAR (11th)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore animi similique fuga sapiente cumque, vitae perferendis explicabo. Illo, id soluta.</p>
+          </div>
 
-        <div class="course-col">
-          <h3>INTERMEDIATE (12th)</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            animi similique fuga sapiente cumque, vitae perferendis explicabo.
-            Illo, id soluta.
-          </p>
-        </div>
+          <div class="course-col">
+            <h3>INTERMEDIATE (12th)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore animi similique fuga sapiente cumque, vitae perferendis explicabo. Illo, id soluta.</p>
+          </div>
 
-        <div class="course-col">
-          <h3>DROPPER (13th)</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            animi similique fuga sapiente cumque, vitae perferendis explicabo.
-            Illo, id soluta.
-          </p>
-        </div>
-      </div>
+          <div class="course-col">
+            <h3>DROPPER (13th)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore animi similique fuga sapiente cumque, vitae perferendis explicabo. Illo, id soluta.</p>
+          </div>
+       </div>
     </section>
 
     <!-- Center -->
     <section class="center">
-      <h1>Our Offline Centers</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis,
-        ut.
-      </p>
+        <h1>Our Offline Centers</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, ut.</p>
 
-      <div class="row">
-        <div class="center-col">
-          <img src="img/center6.jpg" />
-          <div class="layer">
-            <h3>DELHI</h3>
-          </div>
+        <div class="row">
+            <div class="center-col">
+                <img src="img/center6.jpg">
+                <div class="layer">
+                    <h3>DELHI</h3>
+                </div>
+            </div>
+
+            <div class="center-col">
+                <img src="img/center2.jpg">
+                <div class="layer">
+                    <h3>KANPUR</h3>
+                </div>
+            </div>
+
+            <div class="center-col">
+                <img src="img/center7.jpg">
+                <div class="layer">
+                    <h3>LUCKNOW</h3>
+                </div>
+            </div>
+
         </div>
 
-        <div class="center-col">
-          <img src="img/center2.jpg" />
-          <div class="layer">
-            <h3>KANPUR</h3>
-          </div>
-        </div>
-
-        <div class="center-col">
-          <img src="img/center7.jpg" />
-          <div class="layer">
-            <h3>LUCKNOW</h3>
-          </div>
-        </div>
-      </div>
     </section>
     <!-- Facilities -->
 
     <section class="facilities">
-      <h1>OUR facilities</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, deleniti.
-      </p>
-      <div class="row">
-        <div class="facilities-col">
-          <img src="img/classrroms.webp" alt="" />
-          <h3>HIGH TECH CLASSROOMS</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-            iure!
-          </p>
+        <h1>OUR facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, deleniti.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/classrroms.webp" alt="">
+                <h3>HIGH TECH CLASSROOMS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, iure!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/assessment.webp" alt="">
+                <h3>REGULAR ASSESSMENT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, iure!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/hostel.jpg" alt="">
+                <h3>BEST HOSTELS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, iure!</p>
+            </div>
         </div>
-        <div class="facilities-col">
-          <img src="img/assessment.webp" alt="" />
-          <h3>REGULAR ASSESSMENT</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-            iure!
-          </p>
-        </div>
-        <div class="facilities-col">
-          <img src="img/hostel.jpg" alt="" />
-          <h3>BEST HOSTELS</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-            iure!
-          </p>
-        </div>
-      </div>
     </section>
 
     <!-- testimonials -->
     <section class="testimonials">
-      <h1>What Our Students Says</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-        facilis.
-      </p>
-      <div class="row">
-        <div class="testimonials-col" style="margin: 10px;">
-          <img src="img/p3.jpg" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <h3>Swati Singh</h3>
-          <div style="display: flex;">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
+        <h1>What Our Students Says</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, facilis.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                 <img src="img/p3.jpg" >
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                 <h3>Swati Singh</h3>
+                 <div>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="img/p2.webp" >
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, suscipit!</p>
+                <h3>Pawan Kumar</h3>
+                <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+               </div>
+           </div>
         </div>
-        <div class="testimonials-col" style="margin: 10px;">
-          <img src="img/p2.webp" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
-            suscipit!
-          </p>
-          <h3>Pawan Kumar</h3>
-          <div style="display: flex;">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half"></i>
-          </div>
-        </div>
-      </div>
+
     </section>
 
     <!-- Call to action -->
     <section class="cta">
-      <h1>
-        Enroll for Our Various Online Courses.<br />
-        Anywhere from the World
-      </h1>
-      <a href="" class="hero-btn">CONTACT US</a>
+        <h1>Enroll for Our Various Online Courses.<br> Anywhere from the World
+        </h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+
     </section>
 
     <!-- Footer -->
 
     <section class="footer">
-      <h4>About Us</h4>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />Saepe
-        laudantium quisquam ipsa distinctio harum illum nihil exercitationem,
-        magnam provident corrupti.
-      </p>
-      <div class="icons">
-        <a
-          href="https://www.linkedin.com/in/ram-mohan-patel-1b5597220/"
-          target="_blank"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a
-          href="https://www.facebook.com/profile.php?id=100065251880041"
-          target="_blank"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
-        <a href="https://www.instagram.com/curious_kgpian/" target="_blank"
-          ><i class="fa-brands fa-square-instagram"></i
-        ></a>
-        <a href="https://twitter.com/crazyrammohan" target="_blank"
-          ><i class="fa-brands fa-twitter"></i
-        ></a>
-      </div>
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Saepe laudantium quisquam ipsa distinctio harum illum nihil exercitationem, magnam provident corrupti.</p>
+        <div class="icons">
+        <a href="https://www.linkedin.com/in/ram-mohan-patel-1b5597220/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100065251880041"  target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/curious_kgpian/"target="_blank" ><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://twitter.com/crazyrammohan" target="_blank"><i class="fa-brands fa-twitter"></i></a>
 
-      <p>Made With <i class="fa-solid fa-heart"></i> by Ram Mohan Patel</p>
+        </div>
+
+        <p>Made With <i class="fa-solid fa-heart"></i> by Ram Mohan Patel</p>
+
     </section>
-  </body>
+
+    
+</body>
 </html>
